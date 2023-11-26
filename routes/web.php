@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('Chats.loginRegister');
-});
+});         
 // Đăng kí và đăng nhập và đăng xuất 
 Route::post('/register', 'UserController@register')->name('clientRegister');
 Route::post('/login', 'UserController@login')->name('clientLogin');

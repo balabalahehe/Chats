@@ -15,7 +15,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" type="text/css" href="/chat.css">
 </head>
-<!--Coded With Love By Mutiullah Samim-->
 
 <body>
     <div class="container-fluid h-100">
@@ -25,7 +24,8 @@
                     <div class="card-header msg_head">
                         <div class="d-flex bd-highlight">
                             <div class="img_cont">
-                                <img src="https://by.com.vn/nZFzNG" class="rounded-circle user_img">
+                                <img src="https://img.freepik.com/premium-vector/avatar-icon002_750950-52.jpg"
+                                    class="rounded-circle user_img">
                                 <span class="online_icon"></span>
                             </div>
                             <div class="user_info">
@@ -45,13 +45,15 @@
                                             class="msg_time">{{ Carbon\Carbon::parse($value->created_at)->format('H:i:s') }}</span>
                                     </div>
                                     <div class="img_cont_msg">
-                                        <img src="https://by.com.vn/EWpBqw " class="rounded-circle user_img_msg">
+                                        <img src="https://img.freepik.com/premium-vector/avatar-icon002_750950-52.jpg"
+                                            class="rounded-circle user_img_msg">
                                     </div>
                                 </div>
                             @else
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="https://by.com.vn/nZFzNG" class="rounded-circle user_img_msg">
+                                        <img src="https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png"
+                                            class="rounded-circle user_img_msg">
                                     </div>
                                     <div class="msg_cotainer">
                                         {{ $value->content }}
@@ -172,7 +174,6 @@
         //     });
         // });
     });
-
 </script>
 
 </html>

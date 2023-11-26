@@ -13,6 +13,6 @@ class sendMailController extends Controller
     // public function Confirmed(Request $request)
     // {
     //     $data = $request->all();
-    //     return $this.viewConfirmed; 
+    //     return $this.viewConfirmed;
     // }
 }

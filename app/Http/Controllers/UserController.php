@@ -68,6 +68,7 @@ class UserController extends Controller
     {
         Auth::guard('user')->logout();
         echo 'Logout successfully !';
+        return redirect('/');
     }
     
 }
